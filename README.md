@@ -53,7 +53,7 @@ Instancia EC2 :
 
 - SO: Ubuntu 22.04
 - Tipo instancia: t2.micro
-- ` `1 CPU
+- 1 CPU
 - 8 GB de almacenamiento
 ## **7.2.- Herramientas software**
 Instancia EC2 con la siguiente configuración software:
