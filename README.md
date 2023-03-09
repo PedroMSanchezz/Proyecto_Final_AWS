@@ -95,10 +95,10 @@ Podemos contratar 2 servicios para el RDS que vayamos a disponer;
 
 ![](./imagenes/Aspose.Words.764bd500-eb5b-4edb-942c-86c8fe6d70df.006.png)
 
+Costo Total Aproximado (mensual) : 
 
-
-
-
+- Entre 80 € y 130 € si escogemos la opción de RDS de la capa gratuita.
+- Entre 380 € y 420 € si escogemos la opción de RDS del modo en producción.
 
 # **8.- Conclusiones**
 ## **8.1.- Grado de consecución de objetivos**
