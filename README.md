@@ -35,7 +35,8 @@ En cuanto al diseño general, montaremos en un nodo nuestra página web en una i
 ## **5.2.- Diseño detallado**
 Tendremos en nuestras EC2 la siguiente configuración con respecto a las redes.
 
-![](./imagenes/Aspose.Words.764bd500-eb5b-4edb-942c-86c8fe6d70df.001.png)
+![](https://user-images.githubusercontent.com/99346523/223964450-ba878256-bc46-47fc-95f3-ac1516f5c428.png)
+
 
 
 Y en la instancias de RDS tendremos un grupo de subred en el que incluiremos las subredes privadas.
@@ -45,7 +46,8 @@ Y en la instancias de RDS tendremos un grupo de subred en el que incluiremos las
 
 Además, crearemos una VPC para alojar las instancias en diferentes zonas ( Las zonas se encuentran detalladas en la imagen anterior.
 
-![](./imagenes/Aspose.Words.764bd500-eb5b-4edb-942c-86c8fe6d70df.003.png)
+![](https://user-images.githubusercontent.com/99346523/223964299-9d66b14d-d226-444a-ae3c-475f8ecc8d1d.png)
+
 # **6.- Implantación**
 
 Para la implatación de dicho trabajo tenemos que crear un escenario con la implantación de una EC2 para la creación de una página web dinámica y además la creación de una RDS que actuará como base de datos. Dicha base de datos tendrá que securizarse para que no pueda acceder agentes externos a la empresa.
