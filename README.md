@@ -35,18 +35,19 @@ En cuanto al diseño general, montaremos en un nodo nuestra página web en una i
 ## **5.2.- Diseño detallado**
 Tendremos en nuestras EC2 la siguiente configuración con respecto a las redes.
 
-![](https://user-images.githubusercontent.com/99346523/223964450-ba878256-bc46-47fc-95f3-ac1516f5c428.png)
-
+![image](https://user-images.githubusercontent.com/99346523/224049764-91884ef7-b4b5-4020-937e-830850acac00.png)
 
 
 Y en la instancias de RDS tendremos un grupo de subred en el que incluiremos las subredes privadas.
 
-![](https://user-images.githubusercontent.com/99346523/223964075-65cdd72a-8402-408b-9859-d16db0ed33f0.png)
+![image](https://user-images.githubusercontent.com/99346523/224049913-831813ec-1f62-4922-af53-c9d9bb4d8e74.png)
+
 
 
 Además, crearemos una VPC para alojar las instancias en diferentes zonas ( Las zonas se encuentran detalladas en la imagen anterior.
 
-![](https://user-images.githubusercontent.com/99346523/223964299-9d66b14d-d226-444a-ae3c-475f8ecc8d1d.png)
+![image](https://user-images.githubusercontent.com/99346523/224050013-3710752e-60db-4e8b-a5a9-562954886d0b.png)
+
 
 # **6.- Implantación**
 
