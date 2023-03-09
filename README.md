@@ -47,6 +47,8 @@ Además, crearemos una VPC para alojar las instancias en diferentes zonas ( Las 
 ![](./imagenes/Aspose.Words.764bd500-eb5b-4edb-942c-86c8fe6d70df.003.png)
 # **6.- Implantación**
 
+Para la implatación de dicho trabajo tenemos que crear un escenario con la implantación de una EC2 para la creación de una página web dinámica y además la creación de una RDS que actuará como base de datos. Dicha base de datos tendrá que securizarse para que no pueda acceder agentes externos a la empresa.
+
 # **7.- Recursos**
 ## **7.1.- Herramientas hardware**
 Instancia EC2 : 
@@ -96,6 +98,9 @@ Podemos contratar 2 servicios para el RDS que vayamos a disponer;
 
 # **8.- Conclusiones**
 ## **8.1.- Grado de consecución de objetivos**
+- Creación de instancias (Totalmente terminado)
+- Creación de base de datos (Totalmente terminado)
+- Securización de instancias EC2 y RDS (Totalmente terminado)
 
 ## **8.2.- Problemas encontrados**
 Uno de los errores más sencillos y a la vez más difíciles de encontrar ha sido la inserción de las imágenes en el archivo /var/www/html/imagenes, debido a que no se le asignó los permisos de lectura y escritura no se guardaban las imágenes del formulario en dicho directorio.
