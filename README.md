@@ -40,7 +40,8 @@ Tendremos en nuestras EC2 la siguiente configuración con respecto a las redes.
 
 Y en la instancias de RDS tendremos un grupo de subred en el que incluiremos las subredes privadas.
 
-![](./imagenes/Aspose.Words.764bd500-eb5b-4edb-942c-86c8fe6d70df.002.png)
+![](https://user-images.githubusercontent.com/99346523/223964075-65cdd72a-8402-408b-9859-d16db0ed33f0.png)
+
 
 Además, crearemos una VPC para alojar las instancias en diferentes zonas ( Las zonas se encuentran detalladas en la imagen anterior.
 
